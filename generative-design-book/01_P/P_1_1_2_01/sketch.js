@@ -3,7 +3,7 @@
  *
  * MOUSE
  * position x          : saturation
- * position y          : brighness
+ * position y          : brightness
  *
  * KEYS
  * 1-5                 : number of segments
@@ -20,8 +20,6 @@ function setup() {
 
 function draw() {
 
-  // width is observable standard variable for responsive window.innerWidth
-  // sketch.width and sketch.height are p5 system variables for the width and height of the drawing canvas
   colorMode(HSB, 360, width, height);
   background(360, 0, height);
 
